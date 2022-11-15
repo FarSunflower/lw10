@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    font-family:'Times New Roman' ;
+    background: rgb(245,255,0);
+background: radial-gradient(circle, rgba(245,255,0,1) 0%, rgba(0,0,0,1) 52%);
+}
+#HiDiv{
+    width: 100%;
+    width: 500px;
+    text-align: center;
+    margin: 0% auto;
+    color: aliceblue;
+}
+#divMain{
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    margin: 0% auto;
+    padding-top: 10px;
+
+}
+#table1{
+    margin: 0% auto;
+    width: 450px;
+    border: 10px dotted red;
+}
+#balance{
+    text-align: center;
+    width: 100%;
+    width: 500px;
+    margin: 0% auto;
+    padding-bottom: 10px;
+    font-size: x-large;
+    color: aliceblue;
+}
+td{
+    width: 100%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+
+}
+img{
+    width: 100%;
+}
+#button{
+    width: 100%;
+    width: 500px;
+    margin: 0% auto;
+    padding: 10px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    display: block;
+    margin: 0% auto;
+    border-radius: 10px;
+    background-color: red;
+}
+@media screen and (max-width: 1800px){
+ #HiDiv{
+    width: 700px;
+    font-size: smaller;
+ }
+ #balance{
+    font-size: large;
+    width: 300px;
+ }
+ #divMain{
+    height: 480px;
+ }
+}
